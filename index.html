@@ -5,27 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Children Database | Home</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+	
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Municipality of San Francisco, Agusan del Sur</h1>
-            </div>
-        </div>
-    </header>
 
-    <section id="showcase">
-        <div class="container">
-            <h1>Database for Children</h1>
+
+    <section id="showcase" style="background: url('img/BANNER.jpg');">
+        <div class="container" >
         </div>
     </section>
 
     <section id="main">
         <div class="container">
+        
             <div class="tableFixHead">
-                <table>
+                <input type="text" id="myInput" onkeyup='tableSearch()' placeholder="Search Data">
+                <table class="table" id="myTable" data-filter-control="true" data-show-search-clear-button="true">
                     <thead>
                         <tr>
                             <th class="thNo">No.</th>
@@ -43,7 +39,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href="/docs/1. Budgetary Allocations for Children per Barangya.pdf"><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/1. Budgetary Allocations for Children per Barangya.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">2</td>
@@ -51,7 +47,7 @@
                             <td class="col">559</td>
                             <td class="col">433</td>
                             <td class="col">610</td>
-                            <td align="center" class="col"><a href="/docs/2 Number of Children Registered at birth.pdf"><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/2 Number of Children Registered at birth.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">3</td>
@@ -59,7 +55,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/3 No. of accredited children’s association.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">4</td>
@@ -67,7 +63,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/4 No. of Children with Solo Parents.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">5</td>
@@ -75,7 +71,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/5 Programs and services for children of solo parents.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">6</td>
@@ -83,7 +79,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/6 No. of children attending Supervised Neighborhood Play.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">7</td>
@@ -91,7 +87,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/7 Number of Children Affected by Emergency Situations including and Man-made Disasters.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">8</td>
@@ -99,7 +95,7 @@
                             <td class="col">8</td>
                             <td class="col">5</td>
                             <td class="col">7</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/8 No. of children with conflict with the law.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">9</td>
@@ -107,7 +103,7 @@
                             <td class="col">No Data</td>
                             <td class="col">12</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/9 Number of Children Who Are Victims of Exploitation.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">10</td>
@@ -115,7 +111,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/10 Number of Street Children.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">11</td>
@@ -123,7 +119,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/11 Number of Children with Disabities.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">12</td>
@@ -131,7 +127,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/12 Number of IP Children.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">13</td>
@@ -139,7 +135,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/13 Number of Children Place in Foster Care.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">14</td>
@@ -147,7 +143,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/14 Number of Children under Legal Guardianship.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">15</td>
@@ -155,7 +151,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/15 Number of Children in Child-Caring Agencies.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">16</td>
@@ -163,7 +159,7 @@
                             <td class="col">4,450</td>
                             <td class="col">6,668</td>
                             <td class="col">1,732</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/16 Number of Poor Households with Children Attending Health Center Accessing Health Care Services.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">17</td>
@@ -171,7 +167,7 @@
                             <td class="col">1,393</td>
                             <td class="col">731</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/17 Percentage Coverage of Fully Immunized Children Aged 12 Months Old.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">18</td>
@@ -179,7 +175,7 @@
                             <td class="col">2</td>
                             <td class="col">5</td>
                             <td class="col">2</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/18 Infant Mortality Rate.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">19</td>
@@ -187,7 +183,7 @@
                             <td class="col">No Data</td>
                             <td class="col">3</td>
                             <td class="col">863 total live births</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/19 Neonatal and Post Neonatal Rate.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">20</td>
@@ -195,7 +191,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">2</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/20 Maternal Mortality.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">21</td>
@@ -203,7 +199,7 @@
                             <td class="col">1,581</td>
                             <td class="col">653</td>
                             <td class="col">1,211</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/21 Number of Pregnant Women.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">22</td>
@@ -211,7 +207,7 @@
                             <td class="col">461</td>
                             <td class="col">291</td>
                             <td class="col">863</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/22 Number of Pregnant Women Giving Birth in Birth Centers.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">23</td>
@@ -219,7 +215,7 @@
                             <td class="col">273</td>
                             <td class="col">138</td>
                             <td class="col">221</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/23 Number of Teenage Pregnancy Cases.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">24</td>
@@ -227,7 +223,7 @@
                             <td class="col">729</td>
                             <td class="col">426</td>
                             <td class="col">20</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/24 Programs and services available to Pregnant Adolescents.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">25</td>
@@ -235,7 +231,7 @@
                             <td class="col">4</td>
                             <td class="col">4</td>
                             <td class="col">4</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/25 No of Health Centers with Lying-in or Birthing Facility.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">26</td>
@@ -243,7 +239,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">19,780</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/26 Programs and services available to women of reproductive age.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">27</td>
@@ -251,7 +247,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">1,049</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/27 Health Programs and Services Available to Children.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">28</td>
@@ -259,7 +255,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/28 Numer of HIV AIDS Cases in Children.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">29</td>
@@ -267,7 +263,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">10,662</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/29 Number of Households with Access to Safe Water.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">30</td>
@@ -275,7 +271,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">17,329</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/30 Number of Households with Sanitary Toilet.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">31</td>
@@ -283,7 +279,7 @@
                             <td class="col">4.34%</td>
                             <td class="col">1.36%</td>
                             <td class="col">2.34</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/31 Prevalence of Underweight in the Municipality.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">32</td>
@@ -291,7 +287,7 @@
                             <td class="col">13.80%</td>
                             <td class="col">5.49%</td>
                             <td class="col">5.27%</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/32 Prevalence of Stunting in the Municipality.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">33</td>
@@ -299,7 +295,7 @@
                             <td class="col">3.35%</td>
                             <td class="col">0.43%</td>
                             <td class="col">2.01</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/33 Prevalence of Wasting in the Municipality.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">34</td>
@@ -307,7 +303,7 @@
                             <td class="col">2.49%</td>
                             <td class="col">1.47%</td>
                             <td class="col">0.46</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/34 Prevalence of Overweight in the Municipality.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">35</td>
@@ -315,7 +311,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/35 Programs and Services for Underweight, Stunted, Wasted and Overweight Children.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">36</td>
@@ -323,7 +319,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/36 Programs and services that promote good nutrition for children, pregnant and lactating mothers.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">37</td>
@@ -331,7 +327,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">23,636</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/37 No. of children 5-17 year old attending school.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">38</td>
@@ -339,7 +335,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/38 Number of 3-4 year-old children attending center-based day care services, private learning institutions.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">39</td>
@@ -347,7 +343,7 @@
                             <td class="col">19,762</td>
                             <td class="col">19,866</td>
                             <td class="col">20,033</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/39 Enrollment Rate.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">40</td>
@@ -355,7 +351,7 @@
                             <td class="col">85.40%</td>
                             <td class="col">85.45%</td>
                             <td class="col">85.89%</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/40 Cohort Survival Rate.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">41</td>
@@ -363,7 +359,7 @@
                             <td class="col">1.39%</td>
                             <td class="col">1.64%</td>
                             <td class="col">0%</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/41 Drop-Out Rate.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">42</td>
@@ -371,7 +367,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/42 Number of Children’s enrolled in SPED.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">43</td>
@@ -379,7 +375,7 @@
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
                             <td class="col">No Data</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/43 No. of Children attending MADRASAH.pdf"><img src="img/view24.png"></a></td>
                         </tr>
                         <tr>
                             <td class="tdNo">44</td>
@@ -387,7 +383,7 @@
                             <td class="col">50</td>
                             <td class="col">53</td>
                             <td class="col">54</td>
-                            <td align="center" class="col"><a href=""><img src="/img/view24.png"></a></td>
+                            <td align="center" class="col"><a href="docs/44 Number of Out of School Children Out of School Youths.pdf"><img src="img/view24.png"></a></td>
                         </tr>
 
                     </tbody>
@@ -398,6 +394,36 @@
 
     </section>
 
+    <footer>
+        <p>MPDO - SFADS Copyright &copy; 2023</p>
+    </footer>
+
+    <script type="application/javascript">
+        function tableSearch() {
+            let input, filter, table, tr, td, txtValue;
+
+            console.log("working")
+
+            //Intialising Variables
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            for (let i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[1];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+
+        }
+    </script>
 
     
 </body>
