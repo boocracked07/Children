@@ -12,12 +12,11 @@ body{
 }
 
 #showcase{
+    width: 100%;
     min-height: 400px;
     text-align: center;
     color: #ffffff;
     margin-bottom: 10px;
-    border-top: #16a085 solid;
-    border-bottom: #16a085 solid;
 }
 
 #showcase h1{
@@ -82,3 +81,11 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width:400px) {
+    #showcase{
+        width: 90%;
+        height: 400px;
+    }
+}
+
