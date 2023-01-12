@@ -11,21 +11,16 @@ body{
 
 }
 
-header{
-    background: #35424a;
-    color: #f4f4f4;
-    padding-top: 10px;
-    min-height: 70px;
-    border-bottom: #e8491d solid;
-}
-
-h1{
-    font: 25px/1.5 arial, helvetica, san-serif;
-    font-weight: bold;
+#showcase{
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-top: #16a085 solid;
+    border-bottom: #16a085 solid;
 }
 
 #showcase h1{
-    margin-top: 10px;
     font-size: 35px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -34,10 +29,21 @@ h1{
     color: #f4f4f4;
 }
 
+#main .container #searchBox{
+    margin-bottom: 10px;
+    text-align: right;
+}
 
 .tableFixHead{
     overflow-y: auto;
     height: 700px;
+}
+
+#myInput{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: #16a085 1px solid;
 }
 
 .tableFixHead thead th{
@@ -48,6 +54,7 @@ h1{
 table{
     border-collapse: collapse;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 th,
@@ -57,13 +64,21 @@ td{
 }
 
 th{
-    background: #eee;
+    background: #16a085;
+    color: #fff;
 }
 
 tr:nth-child(even){
     background: #fff;
 }
 
-
-
-
+footer{
+    text-align: center;
+    height: 40px;
+    background: #16a085;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
